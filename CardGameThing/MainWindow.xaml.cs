@@ -39,7 +39,7 @@ namespace CardGameThing
             ultraAwesomeDeck.AddCard(new MonsterCard("Blue Eyes White Dragon", 8, "1515", Card.Rarity.Rare, "a very nice blue eyes white dragon. Also has a jet form"));
             ultraAwesomeDeck.AddCard(new MonsterCard("Blue Eyes White Dragon", 8, "1494512", Card.Rarity.SuperRare, "a very nice blue eyes white dragon. Also has a jet form"));
             ultraAwesomeDeck.AddCard(new MonsterCard("Blue Eyes White Dragon", 8, "1514114", Card.Rarity.SuperRare, "a very nice blue eyes white dragon. Also has a jet form"));
-            ultraAwesomeDeck.AddCard(new MonsterCard("Onnoxious Guard", 4, "9816554", Card.Rarity.Normal, "Very obnoxious guard. seriosuly grates on your nerves."));
+            ultraAwesomeDeck.AddCard(new MonsterCard("Obnoxious Guard", 4, "9816554", Card.Rarity.Normal, "Very obnoxious guard. seriosuly grates on your nerves."));
             ultraAwesomeDeck.AddCard(new MonsterCard("Blue Eyes White Dragon", 8, "514445", Card.Rarity.SuperRare, "a very nice blue eyes white dragon. Also has a jet form"));
             ultraAwesomeDeck.AddCard(new MonsterCard("Blue Eyes White Dragon", 8, "1415612", Card.Rarity.SuperRare, "a very nice blue eyes white dragon. Also has a jet form"));
             ultraAwesomeDeck.AddCard(new MonsterCard("Blue Eyes White Dragon", 8, "1716515", Card.Rarity.SuperRare, "a very nice blue eyes white dragon. Also has a jet form"));

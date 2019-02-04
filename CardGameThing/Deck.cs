@@ -38,7 +38,7 @@ namespace CardGameThing
             Card temp;
             for(int i = 0; i<Cards.Count; i++)
             {
-                place = rand.Next(0, Cards.Count + 1);
+                place = rand.Next(0, Cards.Count);
                 temp = Cards[i];
                 Cards[i] = Cards[place];
                 Cards[place] = temp;

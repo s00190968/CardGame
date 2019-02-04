@@ -54,6 +54,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Duel.cs" />
     <Compile Include="MonsterCard.cs" />
     <Compile Include="SpellCard.cs" />
     <Compile Include="TrapCard.cs" />
