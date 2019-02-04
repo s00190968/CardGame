@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CardGameThing
 {
-    class Deck
+    public class Deck
     {
         private int maxNum { get; } = 60;
         public int minNumber { get; } = 40;
