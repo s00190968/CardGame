@@ -13,6 +13,8 @@ namespace CardGameThing
         public int turnsPassed { get; set; }
         public string winnerID { get; private set; }
         public List<Player> players;
+        public int firstPlayer;
+        public int CurrentPlayer { get; set; }
 
         public Duel(List<Player>p, string duelid)
         {
@@ -20,6 +22,16 @@ namespace CardGameThing
             numberOfPlayers = players.Count;
             duelID = duelid;
             turnsPassed = 0;
+        }
+
+        public void startDuel()
+        {
+
+        }
+
+        public void playerdrawsACard()
+        {
+
         }
 
 
