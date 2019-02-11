@@ -12,6 +12,8 @@ namespace CardGameThing
         public string Name { get; set; }
         public int LifePoints;
         public List<Deck> Decks;
+        public Deck currentDeck;
+        List<Card> currentHand;
 
         public Player(string name)
         {
@@ -48,6 +50,29 @@ namespace CardGameThing
         public void addDeck(Deck d)
         {
             Decks.Add(d);
+        }
+
+        public void setCurrentDeck(Deck d)
+        {
+            currentDeck = d;
+        }
+
+        public void DrawStartingHand(bool playerIsFirst)
+        {
+            currentHand = new List<Card>();
+           
+            if (playerIsFirst)
+            {
+                for(int i = 0; i < 4; i++)
+                {
+                    currentHand.Add(currentDeck.Draw());
+                }
+            }
+        }
+
+        public List<Card> GetCurrentHand()
+        {
+            return currentHand;
         }
     }
 }
